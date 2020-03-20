@@ -15,13 +15,5 @@ class String
   end
 
   def count_sentences
-    #self.split(/[.!?]+/).count
-    if self.split.end_with?(".").count
-
-    elsif self.split.end_with?("!s").count
-
-    else
-      self.split.end_with?("?").count
-    end
+    self.split(/[.!?]+/).count
   end
-end
