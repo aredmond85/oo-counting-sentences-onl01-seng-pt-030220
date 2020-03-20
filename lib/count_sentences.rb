@@ -17,10 +17,10 @@ class String
   def count_sentences
     #self.split(/[.!?]+/).count
     if self.split.end_with?(".").count
-      
+
     elsif self.split.end_with?("!s").count
 
-    else 
+    else
       self.split.end_with?("?").count
     end
   end
